@@ -5,8 +5,9 @@
     sh -x cred.sh 
     python getcost.py 
     ```
- - View breakdown of cost for each resource involved under each hour 
+ - View breakdown of cost for each resource involved under each day / hour 
    ```
+   python getcost.py --details
    python getcost.py --resolution=Hour --details
    ```
 
